@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    max-width: 45%; 
+    margin: 0 2%; 
+}
+
+.links-container {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem; 
+}
+
+
+.links-container a {
+    color: white; 
+    margin: 0 10px;
+    text-decoration: none; 
+}
+
+
+.links-container a:hover {
+    text-decoration: underline;
+}
