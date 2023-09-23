@@ -2,24 +2,33 @@ body {
     background-color: black;
     color: white;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 100vh;
 }
 
 img {
-    max-width: 45%; 
-    margin: 0 2%; 
+    width: 40%; /* Adjust this value to your liking */
+    margin: 10px; /* Some spacing around images */
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px; /* Space between the title and images */
 }
 
 .links-container {
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-    text-align: center;
-    font-size: 1.5rem; 
+    margin-top: 20px; /* Space between images and links */
+    /* other styles remain unchanged */
 }
 
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .links-container a {
     color: white; 
